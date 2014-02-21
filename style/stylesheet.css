@@ -1,0 +1,53 @@
+#tic-tac-toe div.board {
+    width: 307px;
+    margin: 24px auto;
+}
+
+#tic-tac-toe div.board:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#tic-tac-toe div.square {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border: 1px solid #000;
+}
+
+#tic-tac-toe div.player-1 {
+    background: red;
+}
+
+#tic-tac-toe div.player-2 {
+    background: yellow;
+}
+
+#tic-tac-toe h2 {
+    text-align: center;
+    font-family: tahoma;
+    text-transform: uppercase;
+}
+
+#tic-tac-toe .controls {
+    margin:  auto;
+    width: 210px;
+    text-align: center;
+}
+
+#tic-tac-toe figure {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 24px;
+    display: inline-block;
+
+}
+
+#tic-tac-toe img {
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
